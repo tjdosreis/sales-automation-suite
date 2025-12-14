@@ -1,20 +1,39 @@
 # 🎯 Sales Automation Suite (Hunter & Sniper)
 
-Uma suite completa de ferramentas de prospecção B2B desenvolvida em Python.
+1. 🕵️ G-Maps Hunter (v3.4)
+O Garimpeiro.
 
-## 🛠️ Ferramentas Inclusas
+Função: Extração de leads geoespaciais (B2B).
 
-### 1. 🕵️ G-Maps Hunter (v3.4)
-Minerador de dados geoespaciais.
-- **Função:** Extrai leads qualificados diretamente do Google Maps.
-- **Filtros:** Possui "Firewall Geográfico" para limpar resultados imprecisos (ex: remover SP de buscas no RJ).
-- **Stack:** Playwright + Streamlit.
+Diferencial: Possui "Firewall Geográfico" (Filtro de Endereço) para eliminar ruído (ex: remover resultados de SP em buscas no RJ).
 
-### 2. 🔫 Sales Sniper (v2.3)
-Agente de Enriquecimento com IA.
-- **Função:** Cria scripts de abordagem (Cold Messaging) personalizados.
-- **IA:** Integrado com Google Gemini 1.5 Flash (Custo Zero).
-- **Segurança:** Sistema anti-bloqueio (Rate Limit Retry) automático.
+Tech: Playwright + Streamlit.
+
+2. 💎 Sales Sniper (v2.3)
+O Ourives.
+
+Função: Enriquecimento de dados e Copywriting.
+
+Diferencial:
+
+Integração nativa com Google Gemini 1.5 Flash (Rápido e Gratuito).
+
+Sistema Anti-Bloqueio (Smart Retry): Gerencia automaticamente o Rate Limit (Erro 429), pausando a operação quando necessário para evitar banimentos.
+
+Humanização: Gera scripts de abordagem fria (Cold Messaging) personalizados baseados na nota e presença digital do lead.
+
+3. ⚔️ War Room CRM (v2.3)
+O Centro de Comando.
+
+Função: Gestão de pipeline e disparo rápido.
+
+Diferencial:
+
+Persistência Automática: Salva status e anotações em um banco de dados local (crm_database_*.csv). Você pode fechar e abrir que os dados continuam lá.
+
+Disparo One-Click: Abre o WhatsApp Web já com a mensagem da IA colada.
+
+UX Visual: Barra de status colorida e feedback imediato de telefones inválidos.
 
 ## 🚀 Como Rodar
 
